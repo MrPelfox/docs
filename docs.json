@@ -1,89 +1,74 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "FuryMine SMP Docs",
   "colors": {
     "primary": "#F5A5A5",
     "light": "#FCD6D6",
     "dark": "#E68080"
   },
   "favicon": "/favicon.svg",
+
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": []
-      },
-      {
-        "tab": "API reference",
+        "tab": "SMP Rehber",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Başlangıç",
             "pages": [
-              "api-reference/introduction"
+              "getting-started/introduction",
+              "getting-started/rules",
+              "getting-started/commands"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Ekonomi Sistemi",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "economy/coins",
+              "economy/upgrades",
+              "economy/tasks"
+            ]
+          },
+          {
+            "group": "Klan Sistemi",
+            "pages": [
+              "clans/overview",
+              "clans/perks",
+              "clans/levels"
+            ]
+          },
+          {
+            "group": "Bosslar",
+            "pages": [
+              "bosses/fury-guardian",
+              "bosses/rewards"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
+
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Discord",
+        "href": "https://discord.gg/furymine"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
   },
+
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
     }
   }
 }
