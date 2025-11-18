@@ -3,33 +3,16 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#F5A5A5",
+    "light": "#FCD6D6",
+    "dark": "#E68080"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
-        "groups": [
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
+        "groups": []
       },
       {
         "tab": "API reference",
